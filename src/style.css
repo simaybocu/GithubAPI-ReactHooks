@@ -1,0 +1,57 @@
+@import url("https://fonts.googleapis.com/css?family=Lato:400,700,900");
+
+* {
+  box-sizing: border-box;
+  background: #24292e;
+}
+body {
+  margin-top: 2rem;
+  font-family: "Lato", sans-serif;
+  background: white;
+  color: white;
+  font-size: 1.1rem;
+}
+.card {
+  max-width: 60rem;
+  margin: 7rem auto 2rem;
+  border-radius: 0.4rem;
+  padding: 5.5rem 2.5rem 3rem;
+}
+.avatar {
+  top: 0;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 10.5rem;
+  background: rgb(105, 108, 109);
+  transition: 0.2s;
+}
+.avatar:hover {
+  background: #24292e;
+}
+.card-username {
+  font-size: 2rem;
+  font-weight: 900;
+  margin: 1rem auto;
+}
+.card-link {
+  color: rgb(158, 11, 11);
+  border-bottom: solid 2px white;
+}
+.card-link:hover {
+  opacity: 0.8;
+  color: white;
+  transition: 0.2s;
+}
+dt,
+dd {
+  font-size: 1.3rem;
+  text-align: center;
+  color: white;
+}
+dt {
+  font-weight: 900;
+  margin-bottom: 0.2rem;
+}
+dd {
+  margin: 0 0 2rem 0;
+}
